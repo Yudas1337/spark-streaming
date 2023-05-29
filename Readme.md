@@ -34,19 +34,28 @@ NIM : 2041720054
 # Tugas Teori Praktikum
 
 1. Kode 1
-    * mylist & myschema : merupakan list, array / data awal yang digunakan untuk membuat dataframe
+    * sys.argv :
+    * sys.stderr :
+    * StreamingContext :
+    * sc :
+    * socketTextStream :
+    * reduceByKey :
+    * lambda line :
+    * awaitTermination :
 2. Kode 2
-    * spark.createDataFrame : Membuat DataFrame dari RDD, daftar, atau pandas.DataFrame.
+    * nc :
+    * lk :
 3. Kode 3
-    * parallelize : kumpulan list untuk membentuk RDD.
-    * toDF : Mengubah Dataset menjadi DataFrame dengan kolom baru.
+    * spark-submit :
+    * master :
+    * local[*] : 
 
 4. Kode 4
-    * hadoop : platform perangkat lunak yang memungkinkan pengolahan data secara terdistribusi pada cluster besar yang terdiri dari ribuan node dan kapasitas data mencapai petabyte.
-    * fs :  menyediakan akses ke berbagai sistem file termasuk Hadoop Distributed File System (HDFS) dan sistem file lokal.
-    * put : sebuah operasi untuk mengunggah file atau objek dari mesin lokal atau virtual ke sistem penyimpanan objek pada PySpark.
+    * ssc.checkpoint : 
+    * parallelize :
+    * updateStateByKey :
+    * flatMap :
 5. Kode 5
-    * pyspark.sql : Mengembalikan DataFrame yang mewakili hasil kueri yang diberikan.
-    * SQLContext : membuat DataFrame, mendaftarkan DataFrame sebagai tabel, mengeksekusi SQL, dll.
-    * createOrReplaceTempView : Membuat atau mengganti tampilan sementara lokal dengan DataFrame ini.
-    * show : Mencetak n baris pertama ke konsol.
+    * rdd.take(5) : 
+    * transform : 
+    * rdd.sortByKey(False) : 
